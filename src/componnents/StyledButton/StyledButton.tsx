@@ -1,10 +1,8 @@
 import { styled } from "@mui/material"
-import type React from "react";
 import type { ReactNode } from "react";
 
 interface StyledButtonProps {
   children: ReactNode;
-  onClick?: () => void;
 }
 
 const StyledButton: React.FC<StyledButtonProps> = ({children,onClick}) => {
